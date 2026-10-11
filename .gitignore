@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.local
+.DS_Store
+# Tokenizer assets belong in the browser cache, never in this repository.
+tokenizer.json
+tokenizer_config.json
+*.safetensors
+*.model

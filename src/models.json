@@ -1,0 +1,86 @@
+[
+  {
+    "id": "deepseek-v4",
+    "label": "DeepSeek V4",
+    "repo": "deepseek-ai/DeepSeek-V4-Pro",
+    "revision": "b5968e9190ef611bbf34a7229255be88a0e937c1",
+    "engine": "hf-byte-bpe",
+    "normalization": "none",
+    "files": [
+      {
+        "name": "tokenizer.json",
+        "bytes": 6367146,
+        "sha256": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 801,
+        "sha256": "6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547"
+      }
+    ],
+    "vocabSize": 129280
+  },
+  {
+    "id": "deepseek-v4.1",
+    "label": "DeepSeek V4.1",
+    "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "revision": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+    "engine": "hf-byte-bpe",
+    "normalization": "none",
+    "files": [
+      {
+        "name": "tokenizer.json",
+        "bytes": 6367257,
+        "sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 801,
+        "sha256": "6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547"
+      }
+    ],
+    "vocabSize": 129280
+  },
+  {
+    "id": "glm-5.3",
+    "label": "GLM-5.3",
+    "repo": "zai-org/GLM-5.3",
+    "revision": "aca966e4e02791568aa6a4ced368624b3d897f42",
+    "engine": "hf-byte-bpe",
+    "normalization": "none",
+    "files": [
+      {
+        "name": "tokenizer.json",
+        "bytes": 20217442,
+        "sha256": "19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 761,
+        "sha256": "98b1271574f41abf89427ae2dda030d94dc9478f0edc5a8bd240db213c6fd5fc"
+      }
+    ],
+    "vocabSize": 154856
+  },
+  {
+    "id": "qwen3.8",
+    "label": "Qwen3.8-2.4T-A95B",
+    "repo": "Qwen/Qwen3.8-2.4T-A95B",
+    "revision": "207bd685a7e3696cfaff12ded7c6a7ea0f88c996",
+    "engine": "hf-byte-bpe",
+    "normalization": "NFC",
+    "files": [
+      {
+        "name": "tokenizer.json",
+        "bytes": 12809320,
+        "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 16438,
+        "sha256": "a4a70308585bebf75f240af83d569586dbcce75626ec324e2f4fe82a72153623"
+      }
+    ],
+    "vocabSize": 248077
+  }
+]
