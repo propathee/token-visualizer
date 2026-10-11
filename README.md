@@ -4,7 +4,7 @@ A lightweight playground for exploring how LLMs split text into tokens.
 
 [Open the app](https://propathee.github.io/token-visualizer/)
 
-![Token Visualizer comparing DeepSeek V4.1 and GLM-5.3 with token and UTF-8 byte details](docs/images/token-visualizer.jpg)
+![Desktop comparison of DeepSeek V4.1 and GLM-5.3, showing Chinese characters and emoji split across tokens](docs/images/token-visualizer.jpg)
 
 ## Features
 
