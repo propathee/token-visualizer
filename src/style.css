@@ -41,8 +41,9 @@ input[type="checkbox"] { accent-color: #466a55; width: 14px; height: 14px; margi
 .input-heading label { font-size: 14px; font-weight: 600; }
 .text-button { border: 0; background: transparent; color: #63726a; padding: 3px 0; font-size: 12px; white-space: nowrap; }
 .text-button:not(:disabled):hover { color: #294b35; text-decoration: underline; }
-textarea { border: 0; border-radius: 0; resize: vertical; padding: 24px 22px; width: 100%; min-height: 370px; height: 420px; font-family: var(--mono); font-size: 15px; line-height: 1.85; color: #35413a; background: white; tab-size: 4; outline: none; }
-textarea:focus { box-shadow: inset 3px 0 #aac5af; }
+textarea { border: 1px solid transparent; border-radius: 0; resize: vertical; padding: 23px 21px; width: 100%; min-height: 370px; height: 420px; font-family: var(--mono); font-size: 15px; line-height: 1.85; color: #35413a; background: white; tab-size: 4; outline: none; }
+/* Reserve all four edges so focus stays even beside scrollbars, without layout shifts. */
+textarea:focus { outline: none; border-color: #6f8e79; }
 textarea::placeholder { color: #a1aaa3; font-family: inherit; font-size: 14px; }
 .input-stats { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; padding: 15px 22px; font-size: 11px; color: #7c867f; border-top: 1px solid #edf0eb; }
 .input-stats strong { font-family: var(--mono); font-weight: 500; color: #46564b; margin-right: 3px; font-size: 13px; }
