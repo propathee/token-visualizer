@@ -2,6 +2,8 @@
 
 A lightweight playground for exploring how LLMs split text into tokens.
 
+[Open the app](https://propathee.github.io/token-visualizer/)
+
 ## Features
 
 - Color-coded tokens, with intact characters and emoji.
